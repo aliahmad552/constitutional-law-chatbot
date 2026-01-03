@@ -1,0 +1,14 @@
+langchain
+fastapi
+uvicorn
+sentence-transformers
+pypdf
+langchain-openai
+langchain-core
+langchain-community
+python-dotenv
+langchain-pinecone
+langchain-huggingface
+python-multipart
+Jinja2
+-e .
