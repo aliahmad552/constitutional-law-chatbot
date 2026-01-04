@@ -77,20 +77,21 @@ It supports **multilingual interaction** including:
 ---
 
 ## 📁 Repository Structure
-revnix-chatbot/
+```bash
+constitutional_chatbot/
 │
 ├── src/
 │   ├── __init__.py
-│   └── helper.py              # RAG agent creation
+│   └── helper.py             # RAG agent creation
 │
 ├── research/
-│   └── trials.py                # LLM configuration
+│   └── trials.py             # trials notebook jupyter
 │
 ├── src/
-│   └── prompt.py      # System prompts
+│   └── prompt.py             # System prompts
 │
 ├── data/
-│   └── constitutional.pdf     # Vector retrieval tool
+│   └── constitutional.pdf    # knowledge base
 │
 ├── static/                   # Frontend assets
 ├── templates/                # HTML templates
